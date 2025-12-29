@@ -43,4 +43,4 @@ class StorageManager:
             oldest_file = self.saved_files.pop(0)
             if os.path.exists(oldest_file):
                 os.remove(oldest_file)
-                print(f"Deleted oldest: {oldest_file}")
+                # print(f"Deleted oldest: {oldest_file}")
